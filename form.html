@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+
+</head>
+<body>
+    <form>
+        <label for="name"> Name : </label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email"> Email : </label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="phone"> Phone Number </label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <label for="pickupdate"> Pick Up Date </label>
+        <input type="date" id="pickupdate" name="pickupdate">
+        <br>
+        <button type="submit"> Adopt Now </button>
+     
+    </form>
+    <form>
+        <label for="dog"> Dog Name </label>
+        <input type="text" id="dog" name="dog">
+    </form>
+    <form>
+        <label for="comments"> Tell Us about your home </label>
+        <br>
+        <textarea id="comments" name="comments" rows="5"> </textarea>
+        <label for="breed"> Preferred Breed </label>
+        <select id="breed" name="breed">
+            <option value=""> --Choose Breed-- </option>
+            <option value="Corgi"> Corgi </option>
+            <option value="Dalmatian"> Dalmatian </option>
+            <option value="goldenretriever"> Golden Retriever </option>
+            <option value="husky"> Husky </option> 
+        </select>
+        <p> Adopt Or Buy? </p>
+        <input type="radio" id="buy" name="adopt" value="buy">
+        <label for="buy"> Buy </label>
+        <input type="radio" id="adopt" name="adopt" value="adopt">
+        <label for="adopt"> Adopt </label>
+        
+        <p> Service you want with : </p>
+        <input type="checkbox" name="service" id="vaccination" value="vaccination">
+        <label for="vaccination"> Vaccination </label>
+        <input type="checkbox" name="service" id="grooming" value="grooming">
+        <label for="grooming"> Grooming </label>
+        <input type="checkbox" name="service" id="training" value="training">
+        <label for="training"> Training </label>
+
+        <input type="checkbox" name="agreement" id="agreement" value="agreement" required>
+        <label for="agreement"> I agree to the terms </label>
+
+        <input type="number" id="age" name="age" min="17" max="99" required>
+
+        <label for="age"> Age : </label>
+
+        <p>Whats Your Gender </p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> Male </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> female </label>
+        <p> City? </p>
+        <select name="city" id="city">
+            <option value="medan"> Medan </option>
+            <option value="binjai"> Binjai </option>
+        </select>
+        <textarea name="notes" id="notes" length="20"> </textarea>
+
+    </form>
+</body>
+</html>
